@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.markypq.gpshook.MainActivity">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <EditText
+        android:id="@+id/lan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+    android:hint="经度"/>
+    <EditText
+        android:id="@+id/lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="纬度"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ACC"
+        android:layout_marginTop="20dp"/>
+    <CheckBox
+        android:id="@+id/enableHook"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:layout_marginTop="20dp"
+        android:onClick="save"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换"
+        android:onClick="change"/>
+</LinearLayout>
