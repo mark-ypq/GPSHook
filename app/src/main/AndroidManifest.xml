@@ -32,15 +32,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
         <!-- 模块描述 -->
         <meta-data
             android:name="xposeddescription"
-            android:value="微信定位" />
+            android:value="微信添加好友自动回复" />
         <!-- 最低版本号 -->
         <meta-data
             android:name="xposedminversion"
