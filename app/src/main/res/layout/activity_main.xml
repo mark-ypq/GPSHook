@@ -48,8 +48,13 @@
         android:onClick="save"
         />
     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="切换"
+    android:onClick="change"/>
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="切换"
-        android:onClick="change"/>
+        android:text="地图取点"
+        android:onClick="map"/>
 </LinearLayout>

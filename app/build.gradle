@@ -21,5 +21,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'org.osmdroid:osmdroid-android:5.2@aar'
     provided files('src/main/java/libs/XposedBridgeApi-54.jar');
 }
